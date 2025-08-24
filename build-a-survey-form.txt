@@ -1,0 +1,53 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Quick Survey Form</h1>
+    <p id="description">Please take a few minutes to fill out this form</p>
+    <form id="survey-form">
+      <label for="name" id="name-label">Name:</label>
+      <input id="name" type="text" placeholder="Eg. Dera Young" required/>
+
+      <label for="email" id="email-label">Email:</label>
+      <input id="email" type="email" required placeholder="derayoung@email.com"/>
+
+      <label for="number" id="number-label">Age:</label>
+      <input id="number" type="number" min="18" max="110" placeholder="21"/>
+
+      <p>What is your highest level of education?</p>
+      <select id="dropdown">
+        <option>Elementary School</option>  
+        <option>Secondary School</option>
+        <option>Undergraduate degree</option> 
+        <option>Masters degree</option>
+      </select>
+
+      <p>Would you recommend us?</p>
+      <label>Yes</label>
+      <input name="option" type="radio" value="option"/> 
+      <label>No</label>
+      <input name="option" type="radio" value="option"/> 
+
+      <p>How satisfied are you with our product/service?</p>
+      <label>Unsatisfied</label>
+      <input type="checkbox" value="satisfaction">
+      <label>Neutral</label>
+      <input type="checkbox" value="satisfaction">
+      <label>Very Satisfied</label>
+      <input type="checkbox" value="satisfaction">
+
+      <p>Do you have any suggestions?</p>
+      <textarea></textarea>
+      <button id="submit">Submit</button>
+    </form>
+  </body>
+</html>
+
+** end of index.html **
+
